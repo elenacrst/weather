@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="text_day_time">Day time:</string>
+    <string name="text_night_time">Night time:</string>
+    <string name="text_humidity">Humidity:</string>
+    <string name="text_pressure">Pressure:</string>
+    <string name="text_weather_condition">Weather condition:</string>
+    <string name="text_clouds">Clouds:</string>
+    <string name="title_notification">Location changed</string>
+    <string name="message_notification">Current coordinates are:</string>
+
+    <string-array name="temp_options">
+        <item>Day time</item>
+        <item>Night time</item>
+    </string-array>
+</resources>

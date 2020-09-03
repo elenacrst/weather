@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="text_day_time">Ziua:</string>
+    <string name="text_night_time">Noaptea:</string>
+    <string name="text_humidity">Umiditate:</string>
+    <string name="text_pressure">Presiune:</string>
+    <string name="text_weather_condition">Conditiile vremii:</string>
+    <string name="text_clouds">Nori:</string>
+    <string name="title_notification">Locatie schimbata</string>
+    <string name="message_notification">Coordonatele curente sunt:</string>
+
+    <string-array name="temp_options">
+        <item>Ziua</item>
+        <item>Noaptea</item>
+    </string-array>
+</resources>

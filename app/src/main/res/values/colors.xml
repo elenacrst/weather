@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#795548</color>
+
+    <color name="lightBlueToolbar">#3299CC</color>
+    <color name="darkBlueToolbar">#236B8E</color>
+
+    <color name="primaryLight">#FFCCBC</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="divider">#BDBDBD</color>
+
+</resources>

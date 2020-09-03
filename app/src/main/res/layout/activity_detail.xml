@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".views.DetailActivity">
+        <android.support.v7.widget.Toolbar
+            android:elevation="12dp"
+            android:id="@+id/toolbar_list"
+            android:background="@drawable/bg_grad"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+            <TextView
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:text="Weather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.Toolbar>
+        <TextView
+            android:layout_marginTop="48dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/primaryText"
+            android:id="@+id/text_date"
+            android:text="Unavailable Date"
+            android:textSize="32sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:id="@+id/text_day_temp"
+            android:text="Day time: unavailable"
+            android:textColor="@color/primaryText"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="24sp"
+            android:textColor="@color/primaryText"
+            android:text="Night time: unavailable"
+            android:id="@+id/text_night_temp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_humidity"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="Humidity: unavailable"
+            android:textColor="@color/secondaryText"
+            android:textSize="16sp"
+            android:layout_marginTop="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_pressure"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="Pressure: unavailable"
+            android:textColor="@color/secondaryText"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_condition"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="Weather condition: unavailable"
+            android:textColor="@color/secondaryText"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_clouds"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="Clouds: unavailable"
+            android:textColor="@color/secondaryText"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
